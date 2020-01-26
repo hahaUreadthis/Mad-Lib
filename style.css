@@ -1,0 +1,40 @@
+
+    body {
+    font-family: 'Galindo', cursive;
+   background-color: #FFFDD9; 
+   margin: 100px 100px 50px 50px;
+    }
+
+  #ok {
+    font-size: 10px;
+  }
+  
+  #story {
+    font-size: 15px;
+  }
+  .active {
+    display: none;
+  }
+  .not-active {
+    display: block;
+  }
+  h1 {
+    font-size: 50px;
+  }
+   p {
+     font-size: 20px;
+   }
+   .Ello {
+     border: 1px solid black;
+   }
+   button {
+     border: 1px solid black;
+     border-radius: 11%;
+   }
+   input {
+     border: 1px solid black;
+     border-radius: 11%;
+   }
+   a {
+     color: black; 
+   }

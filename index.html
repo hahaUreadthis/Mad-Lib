@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Mad libs </title>
+  <link href="https://fonts.googleapis.com/css?family=Galindo" rel="stylesheet">
+   <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <header>
+   <h1> Welcome to Mad Libs! </h1>
+   <hr>
+  </header>
+ <main>
+   <section>
+ 
+     <p> Subjects that are possible</p>
+     <select id="selector" class="Ello">
+       <option value="nope" selected disabled>- Select a Subject-</option>
+       
+       <option value="food">- Food -</option>
+       
+       <option value="school">- School -</option>
+       
+       <option value="shopping">- Shopping -</option>
+       
+       <option value="birthday">- Birthday -</option>
+       
+       <option value="recipes">- Recipes -</option>
+       
+       <option value="letters">- Letters -</option>
+       
+       <option value="animals">- Animals -</option>
+       <option value="event">- Event -</option>
+        
+       <option value="other">- Other -</option>
+     </select>
+   </section>
+   <section>
+     <button id="gogo">Go to Subject</button>
+   </section>
+   <hr>
+   <h2>Example ⬇</h2>
+   <hr>
+   <section class="popup">
+     <input type="text" placeholder="Enter an Adjective" id="exam">
+        <input type="text" placeholder="Enter a Noun" id="ple">
+        <input type="text" placeholder="Enter a Place" id="ok">
+        <button onclick="onClicke()">Submit</button>
+    
+     
+     <h1 id="m">The day I saw a(n) <span id="aa"></span> <p> </p><span id ="ab"></span> at/in (the) <span id="ac"></span><button onclick="hideStuff()">Hide Example</button></h1>
+      
+     <hr>
+       
+   </section>  
+
+ </main>
+  <footer>
+    <p id="ok">
+   Created by Kiora Lu, Published 12/30/18
+  </p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
